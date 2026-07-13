@@ -1,0 +1,28 @@
+# Error Budget Governance Checklist
+
+## Service-Level Tracking
+- [ ] Define SLOs for each critical service
+- [ ] Calculate monthly/quarterly error budget (minutes or % downtime)
+- [ ] Set up automated dashboards (Grafana/Datadog)
+- [ ] Alert when >50% of budget consumed mid-cycle
+
+## Portfolio Aggregation
+- [ ] Roll up error budgets across all services
+- [ ] Visualize aggregate consumption in BI dashboards
+- [ ] Flag systemic risk when >40% portfolio budget consumed
+
+## Governance Interventions
+- [ ] Freeze feature rollouts for services breaching thresholds
+- [ ] Allocate reliability engineers to high-consumption services
+- [ ] Escalate to leadership when portfolio risk exceeds threshold
+- [ ] Document interventions in Jira/Confluence
+
+## Communication & Transparency
+- [ ] Notify stakeholders via Slack/Teams when thresholds breached
+- [ ] Share portfolio error budget status in quarterly reviews
+- [ ] Publish postmortem for services exceeding error budget
+
+## Post-Incident Follow-Up
+- [ ] Review error budget consumption trends
+- [ ] Adjust SLOs if consistently breached or too lenient
+- [ ] Update governance playbook with lessons learned
