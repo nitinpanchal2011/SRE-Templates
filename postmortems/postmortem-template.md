@@ -33,18 +33,25 @@
 
 ---
 
-## 5. Action Items
-| Action | Owner | Priority | Due Date | Status |
-|--------|-------|----------|----------|--------|
-| Example: Improve alert thresholds | SRE Team | High | 2026-07-20 | Open |
+## 5. Action Item Tracking
+
+| Action Item | Owner | Priority | Due Date | Status | Issue ID/Link |
+|-------------|-------|----------|----------|--------|---------------|
+| Example: Improve alert thresholds | SRE Team | High | 2026-07-20 | Open | JIRA-123 |
+| Example: Update runbook for DB failover | Ops Lead | Medium | 2026-07-25 | In Progress | GH-45 |
+
+**Notes:**
+- All action items must be created in the team’s issue tracker (Jira, GitHub, Azure DevOps).  
+- Link the issue ID here for traceability.  
+- Review open items weekly until closure. 
 
 ---
 
 ## 6. References
 - Related incidents: [link]  
 - Logs/Dashboards: [link]  
-- Runbooks: [link]  
-
+- Runbooks: [link]
+  
 ---
 
 ### Notes
