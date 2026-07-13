@@ -1,0 +1,18 @@
+# Error Budget Report – [Service Name]
+
+**SLO Target:** 99.9% availability  
+**Error Budget:** 43 minutes/month  
+
+**Current Consumption:** 28 minutes (65% used)  
+**Thresholds:**  
+- Mid-cycle alert: 50%  
+- Governance trigger: 75%  
+
+**Governance Decision:**  
+- [ ] Freeze new feature rollouts  
+- [ ] Allocate reliability engineers  
+- [ ] Escalate to leadership  
+
+**Notes:**  
+- Incident #1234 consumed 20 minutes  
+- Planned maintenance consumed 8 minutes  
