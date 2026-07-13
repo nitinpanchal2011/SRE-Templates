@@ -39,6 +39,49 @@ Readers, recruiters, and practitioners can use these templates directly or adapt
 
 ---
 
+# Incident Response Templates
+
+This folder contains practical templates to support Site Reliability Engineering (SRE) incident response workflows.  
+Each template is designed to be lightweight, actionable, and easy to integrate into your team’s runbooks or tooling.
+
+---
+
+## 📋 ICS Role Assignment Checklist
+**File:** `ics-role-checklist.md`
+
+The Incident Command System (ICS) provides structure and clarity during outages.  
+This checklist helps teams quickly assign roles, track handoffs, and document responsibilities during live incidents.
+
+### Roles Covered
+- Incident Commander (IC)
+- Communications Lead
+- Operations Lead
+- Scribe/Recorder
+
+### Usage
+1. Assign roles within minutes of declaring an incident.
+2. Use the handoff checklist when rotating ICs or shifting responsibilities.
+3. Capture all role assignments and timelines for the postmortem.
+4. Link the completed checklist to your postmortem template for continuity.
+
+---
+
+## 🔗 Related Templates
+- [Blameless Postmortem Template](../postmortems/postmortem-template.md)  
+Use this after the incident to document timeline, causes, and action items.
+
+---
+
+## ✅ Best Practices
+- Keep templates in a central, searchable repository (e.g., Confluence, GitHub, internal wiki).
+- Refresh quarterly to align with evolving systems and team structures.
+- Tie follow-up actions into your backlog or sprint board to ensure improvements are tracked.
+
+---
+
+*These templates are part of the broader SRE Execution Series: Incident Response & Operations.*
+
+
 ## 👤 Author
 Created by **Nitin Panchal**  
 Senior Leadership | Program Governance | SRE Transformation
